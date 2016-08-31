@@ -1,0 +1,179 @@
+*{
+    list-style: none;
+}
+.mainbox{
+    margin-top: 30px;
+}
+.box{
+    border-top: 3px solid #3c8dbc;
+    border-left:rgba(0,0,0,0.1);
+    border-right: rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    height: 422px;
+}
+.box-header{
+    color: #444;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.box-title{
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+    font-family: 'Source Sans Pro',sans-serif;
+    color: inherit;
+}
+.box-header span{
+    width: 65%;
+    display: inline-block;
+    text-align: center;
+}
+.box-cont{
+    height: 330px;
+}
+.box-cont-window{
+    padding: 10px;
+    height: 330px;
+    overflow-x: hidden;
+}
+.cont-list{
+    padding: 0;
+    margin: 0;
+    width: 10000%;
+    height: 100%;
+}
+.cont-list .cont-list-item{
+    float: left;
+}
+.cont-left, .cont-right{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.cont-left img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+}
+.cont-right img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    border-radius: 50%;
+}
+.cont-text{
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.cont-text-left{
+    background: #d2d6ed;
+    border: 1px solid #d2d6ed;
+    margin: 5px 0 0 50px;
+}
+.cont-text-right{
+    background: #3c8dbc;
+    border: 1px solid #3c8dbc;
+    margin: 5px 50px 0 0;
+}
+.left-poit{
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: block;
+    right: 100%;
+    top: 10px;
+    border: 6px solid #d2d6ed;
+    border-color: transparent #d2d6ed transparent  transparent;
+}
+
+.right-poit{
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: block;
+    left: 100%;
+    top: 10px;
+    border: 6px solid #3c8dbc;
+    border-color: transparent transparent transparent  #3c8dbc;
+}
+.box-footer{
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #f4f4f4;
+}
+.box-right{
+    background: #2e3238;
+    height: 422px;
+    border-radius: 3px;
+    padding-top: 13px;
+}
+.dropdown{
+    display: inline-block;
+}
+.btn{
+    background: #555;
+}
+.user-img{
+    display: inline-block;
+}
+.user-img img{
+    width: 40px;
+    height:40px;
+}
+.myname{
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+    color: #ccc;
+    display: inline-block;
+    width: 45%;
+    padding-left: 5px;
+    font-size: 19px;
+}
+.search_bar{
+    background: #555555;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search{
+    width: 90%;
+    margin: 5px auto;
+    background: rgb(85, 85, 85);
+    border: none;
+}
+.list-items{
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 1px solid #666;
+    color: #9d9d9d;
+    list-style: none;
+    overflow: hidden;
+}
+.item1, .item2{
+    float: left;
+    width: 50%;
+    font-size: 20px;
+}
+.user-list ul{
+    list-style: none;
+    padding: 0;
+}
+.user-list .user-list-item{
+    margin-bottom: 5px;
+}
+.user-list .user-list-item.select{
+    background: #555;
+}
+.user-list-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.user-list-item .user-name{
+    color: #ccc7c7;
+    font-family: 'Source Sans Pro',sans-serif;
+}

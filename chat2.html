@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天窗口</title>
+    <link rel="stylesheet" href="ChatStyle.css">
+    <script src="Chat.js"></script>
+
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="row mainbox">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="row">
+            <div class="col-md-9" style="padding-right: 0;">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Chat-Window</h3>
+                        <span>XQ</span>
+                    </div>
+                    <div class="box-cont">
+                        <div class="box-cont-window" id="box-cont-window">
+                            <ul class="cont-list">
+                                <li class="cont-list-item">
+                                    <div class="cont-left">
+                                        <img src="img/user1-128x128.jpg" alt="">
+                                        <div class="cont-text cont-text-left">
+                                            <span  class="cont-message">i am XQ</span>
+                                            <span class="left-poit" ></span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="cont-right">
+                                        <img src="img/user8-128x128.jpg" alt="">
+                                        <div class="cont-text cont-text-right">
+                                            <span>i am lidong</span>
+                                            <span class="right-poit" ></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cont-list-item">
+
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <div class="box-footer">
+                        <form action="#" method="post">
+                            <div class="input-group">
+                                <input type="text" name="message" placeholder="输入会话消息 ..." class="form-control">
+                                <span class="input-group-btn">
+                                    <span class="btn btn-primary btn-flat">Send</span>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-right">
+                <div class="box-right-header">
+                    <div class="user-img">
+                        <img src="img/user8-128x128.jpg" alt="头像">
+                    </div>
+                    <span class="myname">lidong</span>
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-th-list"></span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" style="left: -107px;">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">
+                                    <span class="glyphicon glyphicon-volume-off"></span>
+                                    关闭声音
+                                </a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                    意见反馈
+                                </a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">
+                                    <span class="glyphicon glyphicon-remove"></span>
+                                    关闭提示
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search_bar" id="search_bar">
+                    <span class="glyphicon glyphicon-search" style="color: #97989a;"></span>
+                    <input type="text" placeholder="搜索" class="search">
+                </div>
+                <div class="people-list">
+                    <ul class="list-items">
+                        <li class="item1">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </li>
+                        <li class="item2">
+                            <span class="glyphicon glyphicon-send"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="user-list">
+                    <ul>
+                        <li class="user-list-item">
+                            <img src="img/user1-128x128.jpg" alt="">
+                            <span class="user-name">XQ</span>
+                        </li>
+                        <li class="user-list-item">
+                            <img src="img/user3-128x128.jpg" alt="">
+                            <span class="user-name">LL</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
