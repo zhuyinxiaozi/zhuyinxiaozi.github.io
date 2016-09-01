@@ -1,0 +1,18 @@
+.btn{
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    z-index: 999;
+    width:40px;
+    height:40px;
+    background:rgba(189, 53, 53, 0.59);
+    cursor:pointer;
+}
+.btn i{ display:block; width:18px; height:2px; background:#fff; position:absolute; left:11px; transition:0.3s}
+.btn i:nth-child(1){ top:13px; -webkit-transform-origin:left bottom;transform-origin:left bottom;}
+.btn i:nth-child(2){ top:19px;}
+.btn i:nth-child(3){ top:25px; -webkit-transform-origin:left top; transform-origin:left top;}
+
+.nav .btn.on i:nth-child(1){ -webkit-transform:rotate(40deg); transform:rotate(40deg);}
+.nav .btn.on i:nth-child(2){ opacity:0}
+.nav .btn.on i:nth-child(3){ -webkit-transform:rotate(-40deg);transform:rotate(-40deg);}
